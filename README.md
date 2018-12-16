@@ -1,2 +1,2 @@
 # java-practice
-learn java
+To try github while learning java.
