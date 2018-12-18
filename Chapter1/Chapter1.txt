@@ -1,0 +1,24 @@
+-> Class is the basic block of Java program.
+-> To use most classes, we have to create objects.
+-> An object is a runtime instance of a class in memory.
+
+-> Class : Fields(variables) and Methods.
+		Fields - Holds the state of the program.
+		Methods - Operate onn the state.
+
+-> Keyword : word with special meaning.
+
+## Classes vs. Files
+
+-> A file when having 1 class need not be marked public.
+-> A file can have more than one class. In this case, at most one class shall be public and the file should be named by it. Otherwise compile error occur.
+-> Period has a reserved meaning in JVM **** What is it??
+-> Keyword static binds a method to its class so it can be called just by the class name. Like, Zoo.main()
+-> import java.util.*; == This does not import child packages, fields or methods. It only imports all the classes in this package java.util
+
+-> Using import java.util.*; does not slow down the program. Compiler will figure out what is actually needed. 
+
+-> java.lang is imported by default. No need to import it explicitly. It would be redundant.
+-> Refer ImportExample program.
+
+
